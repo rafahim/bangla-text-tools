@@ -1,9 +1,7 @@
 # Bangla Text Tools
-> Free offline Bengali text utilities — converter, spell checker, word counter.
+[Portfolio](https://rafahim.com)
 
-[Live Demo](https://rafahim.com/bangla-text-tools/)
-
-## 👨‍💻 Author — RA Fahim · rafahim.com · github.com/rafahim · @rafahimn · dev@rafahim.com
+## 👨‍💻 Author — RA Fahim · rafahim.com· github.com/rafahim · @rafahim · dev@rafahim.com
 
 RA Fahim is a Web Developer & Creator based in Dhaka, Bangladesh, focused on full-stack web products and practical browser tools.
 
