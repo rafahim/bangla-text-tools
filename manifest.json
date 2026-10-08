@@ -1,0 +1,20 @@
+{
+  "name": "Bangla Text Tools by RA Fahim",
+  "short_name": "Bangla Text Tools",
+  "description": "Free offline Bengali text utilities, spell checker and Bijoy Unicode converter by RA Fahim.",
+  "start_url": "https://rafahim.com/bangla-text-tools/",
+  "scope": "/bangla-text-tools/",
+  "display": "standalone",
+  "background_color": "#f4f7f3",
+  "theme_color": "#2d7d46",
+  "lang": "bn",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

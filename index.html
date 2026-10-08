@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bangla Text Tools — Free Bengali Text Editor & Bijoy Unicode Converter | RA Fahim</title>
+<meta name="description" content="Bangla Text Tools by RA Fahim is a free offline Bengali editor with word counter, cleanup tools, spell checker and Bijoy Unicode converter for everyday writing.">
+<meta name="keywords" content="bangla text tools, bijoy to unicode, bangla word counter, bangla spell checker, bengali text editor">
+<meta name="author" content="RA Fahim">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://rafahim.com/bangla-text-tools/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bangla Text Tools — Free Bengali Text Editor & Bijoy Unicode Converter | RA Fahim">
+<meta property="og:description" content="Free offline Bengali text utilities by RA Fahim: editor, word counter, cleanup, spell checker and Bijoy Unicode converter.">
+<meta property="og:url" content="https://rafahim.com/bangla-text-tools/">
+<meta property="og:site_name" content="RA Fahim">
+<meta property="og:image" content="https://rafahim.com/bangla-text-tools/og-image.svg">
+<meta property="og:locale" content="bn_BD">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:creator" content="@rafahimn">
+<meta name="twitter:title" content="Bangla Text Tools — Free Bengali Text Editor & Bijoy Unicode Converter | RA Fahim">
+<meta name="twitter:description" content="Free offline Bengali text utilities by RA Fahim.">
+<meta name="twitter:image" content="https://rafahim.com/bangla-text-tools/og-image.svg">
+<meta name="theme-color" content="#2d7d46">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@graph":[
+  {
+   "@type":"WebApplication",
+   "name":"Bangla Text Tools",
+   "url":"https://rafahim.com/bangla-text-tools/",
+   "description":"Free offline Bengali text editor, word counter, cleanup, spell checker and Bijoy Unicode converter.",
+   "applicationCategory":"UtilitiesApplication",
+   "operatingSystem":"Any",
+   "browserRequirements":"Requires JavaScript",
+   "isAccessibleForFree":true,
+   "author":{"@type":"Person","name":"RA Fahim","url":"https://rafahim.com","sameAs":["https://github.com/rafahim","https://twitter.com/rafahimn","https://www.linkedin.com/in/rafahimn"]},
+   "creator":{"@type":"Person","name":"RA Fahim","url":"https://rafahim.com"}
+  },
+  {
+   "@type":"Person",
+   "name":"RA Fahim",
+   "url":"https://rafahim.com",
+   "jobTitle":"Web Developer & Creator",
+   "sameAs":["https://github.com/rafahim","https://twitter.com/rafahimn","https://www.linkedin.com/in/rafahimn"]
+  },
+  {
+   "@type":"SoftwareApplication",
+   "name":"Bangla Text Tools",
+   "applicationCategory":"UtilitiesApplication",
+   "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+   "author":{"@type":"Person","name":"RA Fahim"}
+  },
+  {
+   "@type":"BreadcrumbList",
+   "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"RA Fahim","item":"https://rafahim.com/"},
+    {"@type":"ListItem","position":2,"name":"Bangla Text Tools","item":"https://rafahim.com/bangla-text-tools/"}
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">মূল কনটেন্টে যান</a>
+<header class="site-header">
+<div class="container header-inner">
+<a class="brand" href="https://rafahim.com" aria-label="RA Fahim হোমপেজ">
+<span class="brand-mark">RAF</span>
+<span><strong>Bangla Text Tools</strong><small>by RA Fahim</small></span>
+</a>
+<div class="header-actions">
+<button id="themeToggle" class="icon-btn" type="button" aria-label="ডার্ক মোড চালু বা বন্ধ">☾</button>
+<a class="header-link" href="https://rafahim.com" rel="author">rafahim.com</a>
+</div>
+</div>
+</header>
+
+<main id="main" class="container">
+<section class="hero" aria-labelledby="page-title">
+<div class="hero-copy">
+<p class="eyebrow">ফ্রি • অফলাইন • বাংলা</p>
+<h1 id="page-title">Bangla Text Tools</h1>
+<p>বাংলা লেখাকে দ্রুত পরিষ্কার, গুছানো, রূপান্তর ও যাচাই করার জন্য এক জায়গায় সব দরকারি টুল। ইন্টারনেট ছাড়াই ব্রাউজারে কাজ করে।</p>
+</div>
+<div class="hero-badge" aria-label="অফলাইন টুল">
+<span>✓</span>
+<div><strong>100% Offline</strong><small>আপনার লেখা আপনার ডিভাইসেই থাকে</small></div>
+</div>
+</section>
+
+<section class="stats-grid" aria-label="লাইভ লেখা পরিসংখ্যান">
+<div class="stat-card"><span>অক্ষর</span><strong id="statChars">0</strong></div>
+<div class="stat-card"><span>স্পেস ছাড়া</span><strong id="statCharsNoSpace">0</strong></div>
+<div class="stat-card"><span>শব্দ</span><strong id="statWords">0</strong></div>
+<div class="stat-card"><span>বাক্য</span><strong id="statSentences">0</strong></div>
+<div class="stat-card"><span>অনুচ্ছেদ</span><strong id="statParagraphs">0</strong></div>
+<div class="stat-card"><span>লাইন</span><strong id="statLines">0</strong></div>
+<div class="stat-card"><span>পড়ার সময়</span><strong id="statReading">0 মি</strong></div>
+</section>
+
+<section class="workspace" aria-label="বাংলা টেক্সট এডিটর">
+<div class="toolbar">
+<div class="toolbar-group">
+<button class="btn btn-primary" data-action="trim" type="button">Trim</button>
+<button class="btn" data-action="spaces" type="button">স্পেস পরিষ্কার</button>
+<button class="btn" data-action="linebreaks" type="button">লাইনব্রেক পরিষ্কার</button>
+<button class="btn" data-action="punctuation" type="button">যতিচিহ্ন পরিষ্কার</button>
+</div>
+<div class="toolbar-group">
+<button class="btn" data-action="reverse" type="button">Reverse</button>
+<button class="btn" id="copyBtn" type="button">কপি</button>
+<button class="btn" id="downloadBtn" type="button">.txt ডাউনলোড</button>
+<button class="btn btn-danger" id="clearBtn" type="button">ক্লিয়ার</button>
+</div>
+</div>
+<textarea id="editor" class="editor" spellcheck="false" aria-label="বাংলা লেখা লিখুন" placeholder="এখানে বাংলা লেখা লিখুন বা পেস্ট করুন..."></textarea>
+<div class="editor-footer">
+<span id="saveStatus">লোকাল কাজের জায়গা • কোনো আপলোড নেই</span>
+<div class="mini-actions">
+<button class="text-btn" data-action="digits-b2e" type="button">০-৯ → 0-9</button>
+<button class="text-btn" data-action="digits-e2b" type="button">0-9 → ০-৯</button>
+</div>
+</div>
+</section>
+
+<section class="panel-section" aria-labelledby="cleanup-title">
+<div class="section-heading"><div><p class="eyebrow">পরিষ্কার ও সাজানো</p><h2 id="cleanup-title">লাইন অপারেশন</h2></div></div>
+<div class="tool-grid">
+<button class="tool-card" data-action="dedupe" type="button"><span>লাইন ডিডুপ</span><small>একই লাইন একবার রাখুন</small></button>
+<button class="tool-card" data-action="sort-az" type="button"><span>A-Z / বাংলা</span><small>ক্রম অনুযায়ী সাজান</small></button>
+<button class="tool-card" data-action="sort-za" type="button"><span>Z-A / বাংলা</span><small>উল্টো ক্রমে সাজান</small></button>
+<button class="tool-card" data-action="reverse-lines" type="button"><span>লাইন Reverse</span><small>লাইনের ক্রম উল্টে দিন</small></button>
+</div>
+</section>
+
+<section class="panel-section" aria-labelledby="case-title">
+<div class="section-heading"><div><p class="eyebrow">ইংরেজি টেক্সট</p><h2 id="case-title">Case Tools</h2></div></div>
+<div class="tool-grid">
+<button class="tool-card" data-action="upper" type="button"><span>UPPER CASE</span><small>সব বড় হাতের</small></button>
+<button class="tool-card" data-action="lower" type="button"><span>lower case</span><small>সব ছোট হাতের</small></button>
+<button class="tool-card" data-action="title" type="button"><span>Title Case</span><small>প্রতিটি শব্দের শুরু বড়</small></button>
+<button class="tool-card" data-action="sentence" type="button"><span>Sentence case</span><small>বাক্যের শুরু বড়</small></button>
+</div>
+</section>
+
+<section class="converter-panel" aria-labelledby="converter-title">
+<div class="section-heading">
+<div><p class="eyebrow">লিগ্যাসি বাংলা</p><h2 id="converter-title">Bijoy ↔ Unicode Converter</h2></div>
+<span class="status-pill">অফলাইন</span>
+</div>
+<div class="converter-grid">
+<div class="converter-box">
+<div class="box-top"><label for="bijoyInput">Bijoy / ANSI</label><button class="text-btn" id="bijoyCopy" type="button">কপি</button></div>
+<textarea id="bijoyInput" aria-label="Bijoy লেখা" placeholder="Bijoy text এখানে দিন..."></textarea>
+</div>
+<div class="converter-controls">
+<button class="swap-btn" id="bijoyToUnicode" type="button">Bijoy → Unicode</button>
+<button class="swap-btn secondary" id="unicodeToBijoy" type="button">Unicode → Bijoy</button>
+<button class="swap-btn ghost" id="swapConverter" type="button">⇄ Swap</button>
+</div>
+<div class="converter-box">
+<div class="box-top"><label for="unicodeInput">Unicode বাংলা</label><button class="text-btn" id="unicodeCopy" type="button">কপি</button></div>
+<textarea id="unicodeInput" aria-label="Unicode বাংলা লেখা" placeholder="Unicode বাংলা এখানে দিন..."></textarea>
+</div>
+</div>
+</section>
+
+<section class="panel-section" aria-labelledby="spell-title">
+<div class="section-heading">
+<div><p class="eyebrow">বানান সহায়তা</p><h2 id="spell-title">বাংলা Spell Checker</h2></div>
+<label class="switch"><input id="spellToggle" type="checkbox" checked><span></span><strong>লাইভ চেক</strong></label>
+</div>
+<div id="spellOutput" class="spell-output" aria-live="polite">লেখা শুরু করলে সম্ভাব্য বানান ভুল এখানে হাইলাইট হবে।</div>
+<div id="suggestions" class="suggestions" aria-live="polite"></div>
+</section>
+
+<section class="info-grid" aria-label="অ্যাপের সুবিধা">
+<article class="info-card"><span class="info-icon">✦</span><h3>গোপনীয়</h3><p>কোনো API, সার্ভার বা ক্লাউডে লেখা পাঠানো হয় না।</p></article>
+<article class="info-card"><span class="info-icon">↯</span><h3>দ্রুত</h3><p>Vanilla JavaScript দিয়ে তৈরি, তাই হালকা ও তাৎক্ষণিক।</p></article>
+<article class="info-card"><span class="info-icon">⌘</span><h3>এক পেজ</h3><p>একটি index.html খুলেই পুরো টুল ব্যবহার করা যায়।</p></article>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="container footer-inner">
+<p>Built with ❤️ by <a href="https://rafahim.com">RA Fahim</a> · <a href="https://rafahim.com">rafahim.com</a> · © 2026 RA Fahim</p>
+<p><a href="https://github.com/rafahim">GitHub</a> · <a href="https://twitter.com/rafahimn">Twitter</a> · <a href="https://www.linkedin.com/in/rafahimn">LinkedIn</a></p>
+</div>
+</footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="dictionary.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
